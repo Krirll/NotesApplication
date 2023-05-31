@@ -18,6 +18,9 @@ Android приложение ***Notes*** позволяет работать с 
 
 
 # Результат
-![](https://github.com/Krirll/NotesApplication/tree/master/readme-images/Screenshot_20230531_223058.png)
-![](https://github.com/Krirll/NotesApplication/tree/master/readme-images/Screenshot_20230531_223211.png)
-![](https://github.com/Krirll/NotesApplication/tree/master/readme-images/Screenshot_20230531_223317.png)
+<img src="https://github.com/Krirll/NotesApplication/blob/master/readme-images/Screenshot_20230531_223058.png" alt="drawing" width="500"/>
+<img src="https://github.com/Krirll/NotesApplication/blob/master/readme-images/Screenshot_20230531_223058.png" alt="drawing" width="500"/>
+<img src="https://github.com/Krirll/NotesApplication/blob/master/readme-images/Screenshot_20230531_223317.png" alt="drawing" width="500"/>
+
+# License
+https://github.com/Krirll/NotesApplication/blob/master/LICENSE
