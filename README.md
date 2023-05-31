@@ -1,8 +1,3 @@
-# Содержание
-
-* ### [Описание](https://github.com/Krirll/NotesApplication/edit/master/README.md#описание-1)
-* ### [Стек](https://github.com/Krirll/NotesApplication/edit/master/README.md#стек-1)
-* ### [Результат](https://github.com/Krirll/NotesApplication/edit/master/README.md#результат-1)
 
 # Описание
 Android приложение ***Notes*** позволяет работать с записками.\
