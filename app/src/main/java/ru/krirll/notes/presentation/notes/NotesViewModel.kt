@@ -39,6 +39,7 @@ class NotesViewModel @Inject constructor(
                     notesUseCase.deleteNote(event.note)
                     recentlyDeletedNote = event.note
                 }
+                getNotes(_state.value.notesOrder)
             }
 
             is NotesEvent.Order -> {
@@ -55,20 +56,24 @@ class NotesViewModel @Inject constructor(
                     notesUseCase.insertOrUpdateNoteUseCase(recentlyDeletedNote ?: return@launch)
                     recentlyDeletedNote = null
                 }
+                getNotes(_state.value.notesOrder)
             }
-
+            NotesEvent.UpdateNotes -> {
+                getNotes(_state.value.notesOrder)
+            }
             NotesEvent.ToggleOrderSection -> {
                 _state.value = state.value.copy(
                     isOrderSectionVisible = !state.value.isOrderSectionVisible
                 )
             }
+
         }
     }
 
     private fun getNotes(notesOrder: NotesOrder) {
         getNotesJob?.cancel()
         getNotesJob = notesUseCase.getNotes(notesOrder)
-            .onEach {notes ->
+            .onEach { notes ->
                 _state.value = state.value.copy(
                     notes = notes,
                     notesOrder = notesOrder
