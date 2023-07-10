@@ -1,12 +1,8 @@
-# Содержание
-
-* ### [Описание](https://github.com/Krirll/NotesApplication/edit/master/README.md#описание-1)
-* ### [Стек](https://github.com/Krirll/NotesApplication/edit/master/README.md#стек-1)
-* ### [Результат](https://github.com/Krirll/NotesApplication/edit/master/README.md#результат-1)
-
 # Описание
 Android приложение ***Notes*** позволяет работать с записками.\
 Благодаря красивому и анимированному интерфейсу это станет делать гораздо приятнее.
+
+## [Реализация с SQLite](https://github.com/Krirll/NotesApplication/tree/sqlite)
 
 # Стек
 ![MVI](https://img.shields.io/badge/-MVI-5A8AD6?style=for-the-badge&logo=)\
@@ -14,6 +10,7 @@ Android приложение ***Notes*** позволяет работать с 
 ![Flow](https://img.shields.io/badge/-Flow-orange?style=for-the-badge&logo=kotlin)\
 ![Compose](https://img.shields.io/badge/-jetpack_compose-56D86C?style=for-the-badge&logo=jetpackcompose)\
 ![Room](https://img.shields.io/badge/-Room-57AFD5?style=for-the-badge&logo=sqlite)\
+![SQLite](https://img.shields.io/badge/-SQLite-57AFD5?style=for-the-badge&logo=sqlite)\
 ![Dagger Hilt](https://img.shields.io/badge/-Dagger_Hilt-6F5CD6?style=for-the-badge&logo=android)
 
 
