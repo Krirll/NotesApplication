@@ -17,11 +17,11 @@ class NotesRepositoryImpl(
         return dbHelper.getNoteById(id)
     }
 
-    override suspend fun insertOrUpdateNote(note: Note): Long {
-        return dbHelper.insertOrUpdateNote(note)
+    override suspend fun insertOrUpdateNote(note: Note) {
+        dbHelper.insertOrUpdateNote(note)
     }
 
-    override suspend fun deleteNote(note: Note): Int {
-        return dbHelper.deleteNote(note)
+    override suspend fun deleteNote(note: Note) {
+        dbHelper.deleteNote(note)
     }
 }
