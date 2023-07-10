@@ -122,6 +122,7 @@ fun NotesScreen(
             }
             Spacer(modifier = Modifier.height(16.dp))
             LazyColumn(modifier = Modifier.fillMaxSize()) {
+                viewModel.onEvent(NotesEvent.UpdateNotes)
                 items(state.notes, key = { item -> item.id!! }) { note ->
                     NoteItem(
                         note = note,
